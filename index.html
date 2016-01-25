@@ -10,7 +10,7 @@
     <input type='text' id='nameInput' placeholder='Name'>
     <input type='text' id='messageInput' placeholder='Message'>
     <script>
-      var myDataRef = new Firebase('https://radiant-inferno-6357.firebaseio.com/');
+      var myDataRef = new Firebase('https://docs-examples.firebaseio.com/web/data');
       $('#messageInput').keypress(function (e) {
         if (e.keyCode == 13) {
           var name = $('#nameInput').val();
